@@ -1,0 +1,19 @@
+{
+  "name": "lista",
+  "version": "1.0.0",
+  "description": "proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "coverage": "nyc --reporter=html mocha"
+  },
+  "author": "Atilio Errecaborde",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-sorted": "^0.2.0",
+    "crypto": "^1.0.1",
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0"
+  }
+}
